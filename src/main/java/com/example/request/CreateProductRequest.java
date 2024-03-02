@@ -6,7 +6,10 @@ import java.util.Set;
 import com.example.model.Size;
 
 public class CreateProductRequest {
+<<<<<<< HEAD
 	
+=======
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
    private String title;
    
    private String description;
@@ -30,7 +33,10 @@ public class CreateProductRequest {
    private String topLevelCategory;
    private String secondLevelCategory;
    private String thirdLevelCategory;
+<<<<<<< HEAD
    
+=======
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 public String getTitle() {
 	return title;
 }

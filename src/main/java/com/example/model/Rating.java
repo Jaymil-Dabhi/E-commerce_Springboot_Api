@@ -33,6 +33,7 @@ public class Rating {
 	private double rating;
 	
 	private LocalDateTime createdAt;
+<<<<<<< HEAD
 	
 	public Rating() {
 		
@@ -79,4 +80,6 @@ public class Rating {
 	}
 	
 	
+=======
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 }

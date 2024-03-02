@@ -1,5 +1,6 @@
 package com.example.model;
 
+<<<<<<< HEAD
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +8,13 @@ import java.util.List;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
+=======
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+<<<<<<< HEAD
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
@@ -18,11 +22,16 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="orders")
+=======
+
+@Entity
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 public class Order {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
    private Long id;
+<<<<<<< HEAD
 	
 	@Column(name="order_id")
 	private String orderId;
@@ -194,4 +203,6 @@ public class Order {
 	}
 	
 	
+=======
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 }

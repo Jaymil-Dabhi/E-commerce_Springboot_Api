@@ -54,6 +54,7 @@ public class ProductServiceImplementation implements ProductService {
 		// TODO Auto-generated method stub
 		return null;
 	}
+<<<<<<< HEAD
 
 	@Override
 	public List<Product> findAllProducts() {
@@ -66,5 +67,7 @@ public class ProductServiceImplementation implements ProductService {
 		// TODO Auto-generated method stub
 		return null;
 	}
+=======
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
   
 }

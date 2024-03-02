@@ -35,10 +35,17 @@ public class Product {
 	private String price;
 	
 	@Column(name="discount_price")
+<<<<<<< HEAD
 	private String discountedPrice;
 	
 	@Column(name="discount_percent")
 	private String discountedPercent;
+=======
+	private String discountPrice;
+	
+	@Column(name="discount_percent")
+	private String discountPercent;
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 	
 	@Column(name="quantity")
 	private String quantity;
@@ -83,8 +90,13 @@ public class Product {
 		this.title = title;
 		this.description = description;
 		this.price = price;
+<<<<<<< HEAD
 		this.discountedPrice = discountPrice;
 		this.discountedPercent = discountPercent;
+=======
+		this.discountPrice = discountPrice;
+		this.discountPercent = discountPercent;
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 		this.quantity = quantity;
 		this.brand = brand;
 		this.color = color;
@@ -130,6 +142,7 @@ public class Product {
 	}
 
 	public String getDiscountPrice() {
+<<<<<<< HEAD
 		return discountedPrice;
 	}
 
@@ -143,6 +156,21 @@ public class Product {
 
 	public void setDiscountPercent(String discountPercent) {
 		this.discountedPercent = discountPercent;
+=======
+		return discountPrice;
+	}
+
+	public void setDiscountPrice(String discountPrice) {
+		this.discountPrice = discountPrice;
+	}
+
+	public String getDiscountPercent() {
+		return discountPercent;
+	}
+
+	public void setDiscountPercent(String discountPercent) {
+		this.discountPercent = discountPercent;
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 	}
 
 	public String getQuantity() {

@@ -10,7 +10,11 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.validation.constraints.NotNull;
 
+<<<<<<< HEAD
 
+=======
+import com.example.model.Size;
+>>>>>>> b85a357c66aeb8ae99b89a940ff6945a4067f389
 
 
 @Entity
